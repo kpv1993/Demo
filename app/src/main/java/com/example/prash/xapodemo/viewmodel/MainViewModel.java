@@ -45,6 +45,7 @@ public class MainViewModel extends BaseViewModel {
         });
     }
 
+    //the success POJO pushed from Engine layer comes here
     @Subscribe
     public void onGetListSuccess(final IGetServiceSuccessEngineEvent event){
         Log.d(TAG, "onGetListSuccess");

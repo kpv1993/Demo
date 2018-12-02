@@ -50,6 +50,8 @@ public class Engine implements IEngine {
             public void onResponse(Call<MainPojo> call, Response<MainPojo> response) {
                 if(response != null && response.body() != null) {
                     final ArrayList<SearchRepo> searchRepos = response.body().getItems();
+
+                    //pushing the POJO to the viewModel Layer
                     mEventBus.post(new IGetServiceSuccessEngineEvent() {
                         @Override
                         public ArrayList<SearchRepo> getSearchList() {

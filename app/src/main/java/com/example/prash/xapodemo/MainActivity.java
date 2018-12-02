@@ -62,6 +62,7 @@ public class MainActivity extends AppCompatActivity {
 
         rView.addOnScrollListener(scrollListener);
 
+        //observable for success POJO
         viewModel.getSuccessObservable().observe(this, new Observer<ArrayList<SearchRepo>>() {
             @Override
             public void onChanged(@Nullable ArrayList<SearchRepo> searchRepos) {
