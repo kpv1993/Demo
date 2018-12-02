@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Xapo Demo</string>
+    <string name="no_desc_found">No Description Found</string>
+    <string name="name_text">Name</string>
+    <string name="url_text">Url</string>
+    <string name="description_text">Description</string>
+    <string name="language_text">Language</string>
+    <string name="no_of_watchers_text">No.of Watchers</string>
+    <string name="trending_repos_text">Trending Android Repos</string>
+    <string name="no_name_found">No Name Found</string>
+    <string name="no_language_found">No Language Found</string>
+    <string name="no_url_found">No Url Found</string>
+</resources>
